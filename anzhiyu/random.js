@@ -1,3 +1,3 @@
-var posts=["2024/08/06/hello-world/"];function toRandomPost(){
+var posts=["2024/08/06/docker搭建个人博客Wordpress/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
